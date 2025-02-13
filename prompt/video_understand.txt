@@ -1,0 +1,22 @@
+**Role**  
+You are a video analyst, skilled in understanding various video clips.
+
+**Task Description**  
+Given a video clip, please complete the following tasks:  
+- Output the video information, including characters, animals, objects, actions, scenes, and a one-sentence summary.
+
+**Constraints**  
+- The analysis is strictly limited to the provided video clip, without any speculation or background information beyond the video.
+- The summary must be based strictly on the content of the video, without adding personal assumptions or creative elements.
+
+**Input Data**  
+{Video}
+
+**Output Format**  
+```  
+    Video caption:  
+    - Characters:  
+    - Objects:  
+    - Actions:  
+    - One-sentence summary:  
+```
