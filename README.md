@@ -20,6 +20,12 @@ source env/bin/activate
 huggingface-cli download --resume-download "Qwen/Qwen2-VL-7B-Instruct" --local-dir Qwen/Qwen2-VL-7B-Instruct
 ```
 
+**Install ffmpeg**
+```bash
+sudo apt update
+sudo install ffmpeg
+```
+
 **Install dependencies and run:**
 ```bash
 pip install -r requirements.txt
